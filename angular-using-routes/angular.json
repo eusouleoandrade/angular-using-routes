@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-using-routes:build:production"
+              "buildTarget": "angular-using-routes:build:production"
             },
             "development": {
-              "browserTarget": "angular-using-routes:build:development"
+              "buildTarget": "angular-using-routes:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-using-routes:build"
+            "buildTarget": "angular-using-routes:build"
           }
         },
         "test": {
